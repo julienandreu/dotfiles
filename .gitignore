@@ -1,0 +1,5 @@
+# Bare git repo
+.cfg
+
+# Tmux plugins
+.tmux/plugins/*
