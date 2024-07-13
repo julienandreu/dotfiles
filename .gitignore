@@ -1,5 +1,2 @@
-# Bare git repo
-.cfg
-
-# Tmux plugins
-.tmux/plugins/*
+.config/alacritty/themes
+.config/tmux/plugins/

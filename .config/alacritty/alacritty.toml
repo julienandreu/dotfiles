@@ -1,17 +1,14 @@
-import = ["~/.config/alacritty/themes/themes/github_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/catppuccin_mocha.toml"]
 
 [env]
 TERM = "xterm-256color"
 
 [window]
-padding.x = 10
-padding.y = 10
-
+padding.x = 16
+padding.y = 16
 decorations = "buttonless"
-
-opacity = 0.8
+opacity = 0.66
 blur = true
-
 option_as_alt = "Both"
 
 [font]
@@ -23,41 +20,4 @@ size = 16
 
 [shell]
 program = "/opt/homebrew/bin/tmux"
-args = []
-
-# Default colors
-[colors.primary]
-background = '#0d1117'
-foreground = '#ecf2f8'
-
-# Cursor colors
-[colors.cursor]
-cursor = '#c6cdd5'
-text = '#ecf2f8'
-
-# Normal colors
-[colors.normal]
-black = '#0d1117'
-blue = '#77bdfb'
-cyan = '#a2d2fb'
-green = '#7ce38b'
-magenta = '#cea5fb'
-red = '#fa7970'
-white = '#ecf2f8'
-yellow = '#faa356'
-
-# Bright colors
-[colors.bright]
-black = '#333333'
-blue = '#85add6'
-cyan = '#82c4c4'
-green = '#acd1a8'
-magenta = '#d8b6d8'
-red = '#f97b58'
-white = '#ffffff'
-yellow = '#fac761'
-
-# Selection colors
-[colors.selection]
-background = '#21262d'
-text = '#c6cdd5'
+args = ["new-session", "-A", "-s", "main"]

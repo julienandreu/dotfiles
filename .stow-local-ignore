@@ -1,0 +1,8 @@
+\.git
+\.gitignore
+\.gitmodules
+
+^/README.md
+^/LICENSE
+^/clean.sh
+^/setup.sh
