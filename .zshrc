@@ -68,7 +68,7 @@ alias lt="eza --tree --level=2 --long --icons --git"
 
 # FZF
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow'
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
 
 export PATH=/opt/homebrew/bin:$PATH
 

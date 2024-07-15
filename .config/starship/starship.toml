@@ -21,7 +21,7 @@ $haskell\
 $python\
 [](fg:teal bg:peach)\
 $time\
-[ ](fg:peach)\
+[ ](fg:peach)\
 $line_break$character"""
 
 palette = 'catppuccin_mocha'
