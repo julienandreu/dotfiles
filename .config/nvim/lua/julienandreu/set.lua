@@ -8,4 +8,4 @@ vim.opt.colorcolumn = "80"
 vim.api.nvim_set_hl(0, "CursorLine", { bg = "#101010" })
 vim.api.nvim_set_hl(0, "ColorColumn", { bg = "#181818" })
 
-vim.opt.rpt:append("/opt/homebrew/opt/fzf")
+vim.opt.termguicolors = true
