@@ -81,3 +81,6 @@ fv() { nvim "$(find . -type f -not -path '*/.*' | fzf)" }
 eval "$(zoxide init zsh)"
 
 ls ~/.config/plugins/*.sh | xargs -I {} sh -c "source {}"
+
+# Created by `pipx` on 2024-07-15 18:31:52
+export PATH="$PATH:/Users/julien/.local/bin"
